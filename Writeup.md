@@ -172,8 +172,14 @@ For the fifth image, the model prediction was correct and detected a "No entry" 
 
 ### Visualizing the Neural Network
 
+For getting insights of neural network, I will visualize how hidden layers get activated. However, the chosen model architecture reduces the features size very quickly so it makes sense to visualize only the frist layer.
+
+Here are features visualiztions for one of the German traffic signs (Image 3) and one of the random images found in the Web.
+
 ![Image 3 from the Web][image11]
 ![Hidden layer activation visualiziation][image10]
 
 ![Random image from the Web][image12]
 ![Hidden layer activation for the random image][image13]
+
+Comparing visualizations, I can assume that the first hiiden layer of trained neural network gets activated by edges on the image or changes in the contrast.
