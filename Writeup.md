@@ -76,7 +76,7 @@ After running a couple of training rounds, I found that the model was tending to
 
 To add more data to the data set, I generated 5 extra images for an each image from the training set by randomly shifting and rotating pictures. Shifting was performed in both dimensions by [-2 px; +2 px] and the image was rotated by [-15 degree; +15 degree]. In total, extra 173.995 images were generated
 
-Here is an example of an original image and an pre-processed augmented image:
+Here is an example of an original image and a pre-processed augmented image:
 
 ![Traffic signs from train data set][image1]
 ![Pre-processed augmented train image][image3]
@@ -148,7 +148,7 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 #### 3. Softmax probabilities distribution
 
-The code for making predictions on my final model is located in the Step 3 of the Ipython notebook.
+The code for making predictions on my final model is located in Step 3 of the Ipython notebook.
 
 For the first image, the model prediction was correct and detected a "General caution" sign (probability of 0.99). The top five softmax probabilities were [0.99, 0.00045, 0.0000028, 1.97e-10, 1.64e-11]
 
@@ -172,9 +172,9 @@ For the fifth image, the model prediction was correct and detected a "No entry" 
 
 ### Visualizing the Neural Network
 
-For getting insights of neural network, I will visualize how hidden layers get activated. However, the chosen model architecture reduces the features size very quickly so it makes sense to visualize only the frist layer.
+To get insights of the neural network, I will visualize how hidden layers get activated. However, the chosen model architecture reduces the features size very quickly so it makes sense to visualize only the first layer.
 
-Here are features visualiztions for one of the German traffic signs (Image 3) and one of the random images found in the Web.
+Here are the visualization of features for one of the German traffic signs (Image 3) and one of the random images found on the Web.
 
 ![Image 3 from the Web][image11]
 ![Hidden layer activation visualiziation][image10]
@@ -182,4 +182,4 @@ Here are features visualiztions for one of the German traffic signs (Image 3) an
 ![Random image from the Web][image12]
 ![Hidden layer activation for the random image][image13]
 
-Comparing visualizations, I can assume that the first hiiden layer of trained neural network gets activated by edges on the image or changes in the contrast.
+Comparing visualizations, I can assume that the first hidden layer of the trained neural network gets activated by edges on the image or changes in the contrast.
