@@ -25,7 +25,9 @@ The goals/steps of this project are the following:
 [image8]: ./images/softmax_distr_4.png "Softmax distribution for the image 4"
 [image9]: ./images/softmax_distr_5.png "Softmax distribution for the image 5"
 [image10]: ./images/activation_viz.png "Hidden layer activation visualiziation"
-[image11]: ./images/web_image_1.png "Image 1 from the Web"
+[image11]: ./images/web_image_1.png "Image 3 from the Web"
+[image12]: ./images/random_image.png "Random image from the Web"
+[image13]: ./images/random_image_activation.png "Hidden layer activation for the random image"
 
 ## Rubric Points
 
@@ -170,5 +172,8 @@ For the fifth image, the model prediction was correct and detected a "No entry" 
 
 ### Visualizing the Neural Network
 
-![Image 1 from the Web][image11]
+![Image 3 from the Web][image11]
 ![Hidden layer activation visualiziation][image10]
+
+![Random image from the Web][image12]
+![Hidden layer activation for the random image][image13]
