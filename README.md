@@ -1,7 +1,9 @@
 # Traffic Sign Recognition
 
 Term 1
+
 Project 2 
+
 Udacity Self-Driving Car Engineer Nanodegree. 
 
 **Building a Traffic Sign Recognition Project**
